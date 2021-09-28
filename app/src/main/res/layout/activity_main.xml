@@ -20,12 +20,14 @@
             android:text="@string/tvHeading"
             android:textAlignment="center"
             android:textColor="#E91E63"
-            android:textSize="20sp" />
+            android:textSize="20sp"
+            android:gravity="center"
+            />
 
         <ListView
             android:id="@+id/listView"
             android:layout_width="match_parent"
-            android:layout_height="473dp">
+            android:layout_height="363dp">
 
         </ListView>
 
@@ -33,12 +35,16 @@
             android:id="@+id/btnCreate"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/btnCreate" />
+            android:text="@string/btnCreate"
+            android:onClick="create"
+            />
 
         <Button
             android:id="@+id/btnExit"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/btnExits" />
+            android:text="@string/btnExits"
+            android:onClick="exit"
+            />
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
